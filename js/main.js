@@ -11,6 +11,9 @@ window.onscroll = function () {
 }
 
 
+
+
+
 // nav hide
 
 let navBar= document.querySelectorAll(".nav-link");

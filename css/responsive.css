@@ -9,6 +9,7 @@
 
     .top-banner{
         padding:9.375rem 0 9.375rem;
+        padding-bottom: 650px;
     }
 
 }
@@ -40,6 +41,7 @@
     /* Banner Design */
     .top-banner{
         padding:12.375rem 0 9.375rem;
+        padding-bottom: 550px;
     }
 
 
@@ -70,11 +72,17 @@
 
     .top-banner {
         padding: 12.875rem 0 9.375rem;
+        padding-bottom: 400px;
     }
 
 
 
     /* story section */
+
+    .story-section {
+        height:auto;
+        padding:3rem 0;
+    }
 
 
 }
