@@ -1,3 +1,4 @@
+
 @media (max-width:2024px) {
 
     /* about section */
@@ -9,8 +10,140 @@
 
     .top-banner{
         padding:9.375rem 0 9.375rem;
-        padding-bottom: 650px;
+        padding-bottom: 2024px;
     }
+
+
+    .story-section {
+        height:auto;
+        padding:21rem 0;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:1824px) {
+
+    /* about section */
+
+   .navigation-wrap .navbar-brand .logo {
+        width:25%;
+        height:25%;
+    }
+
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+        padding-bottom: 2024px;
+    }
+
+
+    .story-section {
+        height:auto;
+        padding:19rem 0;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1524px) {
+
+    /* about section */
+
+   .navigation-wrap .navbar-brand .logo {
+        width:25%;
+        height:25%;
+    }
+
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+        padding-bottom: 2024px;
+    }
+
+
+    .story-section {
+        height:auto;
+        padding:16rem 0;
+    }
+
+
+
+}
+
+
+
+@media (max-width:1324px) {
+
+    /* about section */
+
+   .navigation-wrap .navbar-brand .logo {
+        width:25%;
+        height:25%;
+    }
+
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+        padding-bottom: 1024px;
+    }
+
+
+    .story-section {
+        height:auto;
+        padding:13rem 0;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+
+    /* about section */
+
+   .navigation-wrap .navbar-brand .logo {
+        width:25%;
+        height:25%;
+    }
+
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+        padding-bottom: 1024px;
+    }
+
+
+    .story-section {
+        height:auto;
+        padding:11rem 0;
+    }
+
+
 
 }
 
@@ -27,6 +160,9 @@
     .navigation-wrap .navbar-brand img{
         height:3.8125rem;
     }
+    .navigation-wrap .navbar-brand .logo {
+        float:left;
+    }
 
     .navigation-wrap{
         text-align: center;
@@ -41,19 +177,50 @@
     /* Banner Design */
     .top-banner{
         padding:12.375rem 0 9.375rem;
-        padding-bottom: 550px;
+        padding-bottom: 500px;
     }
+
+
+
+
+    .story-section {
+        height:auto;
+        padding:7rem 0;
+    }
+
+
 
 
     /* carousel design */
 
    
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding:0;
+
+    }
+
+
+
 
 }
 
 
 
 @media (max-width: 767px){
+
+
+
+    .navigation-wrap .navbar-brand {
+        width:80%;
+        height:80%;
+    }
+
+
+    .navigation-wrap .navbar-brand .logo{
+       float:left;
+    }
+
+
 
     /* custom css */
 
@@ -81,7 +248,84 @@
 
     .story-section {
         height:auto;
-        padding:3rem 0;
+        padding:0.000005rem 0;
+    }
+
+
+    /* carousel design */
+    
+
+ 
+   
+
+    .testimonial-section .carousel-item{
+        padding:3rem 3.125rem;
+    }
+
+}
+
+
+@media (max-width:360px) {
+
+    .navigation-wrap .navbar-brand {
+        width:60%;
+        height:80%;
+    }
+
+    .navigation-wrap .navbar-brand .logo {
+        float:left;
+    }
+
+    
+    /* carousel design */
+
+    .testimonial-section .carousel-item img {
+        margin-bottom: 180px;
+    }
+
+    .testimonial-section .carousel-item{
+        padding:1rem 3.125rem;
+    }
+
+   
+
+}
+
+
+
+@media (max-width:280px) {
+    .navigation-wrap .navbar-brand {
+        width:60%;
+        height:80%;
+    }
+    .navigation-wrap .navbar-brand .logo {
+        float:left;
+    }
+
+
+
+   .story-section {
+       height:auto;
+       padding:10rem 0;
+   }
+
+
+
+    /* carousel design */
+
+
+    
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding:0;
+
+    }
+
+    .testimonial-section .carousel-item img {
+        margin-bottom: 250px;
+    }
+
+    .testimonial-section .carousel-item{
+        padding:1rem 3.125rem;
     }
 
 
